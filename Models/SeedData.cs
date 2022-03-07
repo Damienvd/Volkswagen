@@ -14,7 +14,7 @@ namespace Volkswagen.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<VolkswagenContext>>()))
             {
-                // Look for any movies.
+                
                 if (context.Model.Any())
                 {
                     return;   // DB has been seeded
